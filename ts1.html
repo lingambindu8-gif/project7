@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #081b29;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 320px;
+            background: #71a3c7;
+            backdrop-filter: blur(10px);
+            padding: 35px 30px;
+            border-radius: 18px;
+            border: 3px solid #008bba;
+            box-shadow: 0px 0px 25px rgba(28, 206, 255, 0.795);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 28px;
+            color: #333;
+            font-weight: 700;
+            padding-bottom: 10px;
+        }
+
+        .input-field {
+            width: 100%;
+            margin-bottom: 18px;
+        }
+
+        .input-field input {
+            width: 90%;
+            padding: 12px 14px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            font-size: 15px;
+            background: #fff;
+            transition: .3s;
+        }
+
+        .input-field input:focus {
+            border-color: #6a5af9;
+            box-shadow: 0 0 5px #6a5af9;  
+        }
+
+        .btn {
+            width: 100%;
+            padding: 12px 0;
+            border: none;
+            background: #6a5af9;
+            color: #fff;
+            font-size: 17px;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 10px 0;
+            transition: .3s;
+        }
+
+        .btn:hover {
+            background: #4b37db;
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: #0b044b;
+            font-weight: 600;
+        }
+
+        .or-line {
+            text-align: center;
+            margin: 15px 0;
+            color: #444;
+            font-weight: 600;
+        }
+
+        .social-btn {
+            width: 100%;
+            padding: 10px;
+            border-radius: 20px;
+            border: 2px solid #3331;
+            background: whitesmoke;
+            cursor: pointer;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .social-btn img {
+            width: 22px;
+            padding-left: 5px ;
+        }
+        .social-btn a{
+           text-decoration: none; 
+           font-size: 15px;
+           color: black;
+           align-items: center;
+        }     
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <h2>Signup</h2>
+
+        <div class="input-field">
+            <input type="email" placeholder="Email">
+        </div>
+
+        <div class="input-field">
+            <input type="password" placeholder="Create Password">
+        </div>
+
+        <div class="input-field">
+            <input type="password" placeholder="Conform-Password">
+        </div>
+
+        <button class="btn">Signup</button>
+
+        <div class="links">
+            Already have an account? <a href="regi.html">Login</a>
+        </div>
+
+        <div class="or-line">──────── OR ────────</div>
+
+        <button class="social-btn">
+          
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png">&nbsp;&nbsp;&nbsp;
+            <a href="https://www.facebook.com/login" style="margin-left: -20px;">Login with Facebook</a>
+        </button>
+
+        <button class="social-btn">
+            <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png">
+            <a href="https://myaccount.google.com/">Login with Google</a>
+        </button>
+    </div>
+
+</body>
+</html>
